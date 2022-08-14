@@ -3,7 +3,8 @@ import { FaSearch } from 'react-icons/fa';
 import { Outlet, Link } from "react-router-dom";  
 let Navbar = () => {
     return (
-        <>
+        <>       
+        
                 <nav class="navbar navbar-expand-lg navbar-light text-align-center">
                     <div class="container-fluid">
                         <Link  class="navbar-brand text-white fs-4" to="/">E-Commerce</Link>

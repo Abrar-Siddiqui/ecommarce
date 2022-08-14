@@ -4,6 +4,7 @@ import '../componants/static/style/Home.css'
 import { FaTwitter, FaFacebook, FaWhatsapp } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import OwlCarousel from 'react-owl-carousel';
+import Banner from '../componants/Banner'
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import img1 from "../componants/static/img/laptop/l1.png"
@@ -41,6 +42,20 @@ let Home = () => {
 
     return (
         <>
+        <div className='container-fluid bg-light'>
+        <div className="row text-center" id='infos'>
+           <div className='col-lg-4 mt-2'>
+              <p >email : webdeveloping144@gmail.com</p>
+           </div>
+           <div className='col-lg-4 mt-2'>
+              <p><span  className='text-warning'>Sh</span>ophy<span className='text-success'> Store</span></p>
+           </div>
+           <div className='col-lg-4 mt-2'>
+              <p>Order</p>
+           </div>
+           </div>
+           
+        </div>
 
             <div className='bg-dark py-2 text-white text-center '>
                 <div className='container-fluid'>
@@ -85,9 +100,13 @@ let Home = () => {
                             </div>
                         </div>
                     </div>
+                    
                 </div>
+                
             </div>
+            <Banner />
         </>
+        
     )
 }
 export default Home;
