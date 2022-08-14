@@ -25,7 +25,7 @@ let Home = () => {
     const state = {
         responsive: {
             0: {
-                items: 1,
+                items: 2,
             },
             450: {
                 items: 2,
